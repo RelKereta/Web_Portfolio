@@ -1,0 +1,12 @@
+/*I got the tutorial from "https://www.youtube.com/shorts/onH0wKYIU2o" */
+.wrap img{width:10%;}
+.wrap {position:relative;}
+.caption {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%; padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+.caption {display: none;}
+.wrap:hover .caption {display: block;}
