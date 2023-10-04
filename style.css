@@ -1,4 +1,3 @@
-/*I got the tutorial from "https://www.youtube.com/shorts/onH0wKYIU2o" */
 .wrap img{width:100%;}
 .wrap {position:left;}
 .caption {
@@ -12,7 +11,7 @@
 .wrap:hover .caption {display: block;}
 table {
     border-collapse: collapse;
-    width: 60%;
+    width: 100%;
     margin: 20px auto;
 }
 
@@ -21,3 +20,10 @@ th, td {
     padding: 8px;
 }
 h4, p {text-align: center, justify;}
+body {
+    background-image: url("background.jpg"); 
+    background-size: cover;
+    text-align: center;
+}
+a {color: black;}
+img {max-width:100%;height:auto;}

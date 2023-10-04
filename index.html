@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farrell Sevillen Arya Assignment 1 </title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -41,58 +41,83 @@
             <a target=_blank href="https://www.instagram.com/relkereta0805/">@relkereta0805</a>
         </td>
     </tr>
-    <h4>My Gender</h4>
-    <fieldset>
-    <legend>Gender</legend>
-    <label><input type="radio" id="Male" name="Gender" value="Male" checked>Male</label>
-    <label><input type="radio" id="Female" name="Gender" value="Female">Female</label>
-    </fieldset>
+    <tr>
+        <td colspan="3">
+            <h4>My Gender</h4>
+            <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" id="Male" name="Gender" value="Male" checked>Male</label>
+            <label><input type="radio" id="Female" name="Gender" value="Female">Female</label>
+            </fieldset>
+        </td>
+    </tr>
+    </table>
     <br>
-
-</table>
     <section>
-    <h4>Where I Went to Get Education</h4>
-    <ol>
-        <li>
-            University
-            <br>
-            <a target=_blank href="https://international.binus.ac.id/">Binus International University</a></li>
-        <li>
-            Middle/High School
-            <br>
-            <a target=_blank href="https://lenteraschools.com/">Sekolah Lentera Kasih</a></li>
-        <li>
-            Primary School
-            <br>
-            <a target=_blank href="https://kinderfieldhighfield.sch.id/">Kinderfield</a></li>
-    </ol>
-    </section>
-
-    <section>
-        <h4>Past Programming Experience</h4>
-    <fieldset>
-        <legend>Programming Skills</legend>
-        <input type="checkbox" id="Skill1" name="Skill1" value="HTML" checked>
-        <label for="Skill1">HTML</label><br>
-        <input type="checkbox" id="Skill2" name="Skill2" value="JavaScript" checked>
-        <label for="Skill2">JavaScript</label><br>
-        <input type="checkbox" id="Skill3" name="Skill3" value="Python" checked>
-        <label for="Skill3">Python</label>
-    </fieldset>
-    </section>
-
-    <section>
-    <h4>Hobbies and Interests</h4>
-    <ul>
-        <li>Building Gunpla</li>
-        <li>Football</li>
-        <li>Futsal</li>
-        <li>Gaming</li>
-        <li>Racing</li>
-        <li>Watching Anime</li>
-        <li>Watching football games</li>
-        <li>Watching Formula 1 races</li>
-    </ul>
+    <table>
+        <tr>
+            <th colspan="3">
+                <h4>Where I Went to Get Education</h4>
+            </th>
+        </tr>
+        <tr>
+            <td width="33%">
+                <legend>University</legend>
+                <br>
+                <a target=_blank href="https://international.binus.ac.id/" ><img src=Logo-BINUS-02.jpg></a>
+            </td>
+            <td width="33%">
+               <legend>Middle/High School</legend>
+                <br>
+                <a target=_blank href="https://lenteraschools.com/"><img src="logo.png"></a>
+            </td>
+            <td width="33%">
+                <legend>Primary School</legend>
+                <br>
+                <a target=_blank href="https://kinderfieldhighfield.sch.id/"><img src="download.jpg"></a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <h4>Past Programming Experience</h4>
+            </th>
+        </tr>
+        <tr>
+           <td colspan="3">
+            <fieldset>
+                <legend>Programming Skills</legend>
+                <input type="checkbox" id="Skill1" name="Skill1" value="HTML" checked>
+                <label for="Skill1">HTML</label><br>
+                <input type="checkbox" id="Skill2" name="Skill2" value="JavaScript" checked>
+                <label for="Skill2">JavaScript</label><br>
+                <input type="checkbox" id="Skill3" name="Skill3" value="Python" checked>
+                <label for="Skill3">Python</label>
+            </fieldset> 
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <h4>Hobbies and Interests</h4>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <legend>Building Gunpla</legend>
+                <br>
+                <img src="gundam.jpg">
+            </td>
+            <td>
+                <legend>Football</legend>
+                <br>
+                <img src="alpha.jpg">
+            </td>
+            <td>
+                <legend>Gaming</legend>
+                <br>
+                <img src="controller.jpg">
+            </td>
+        </tr>
+    </table>
     </section>
 </body>
 </html>
