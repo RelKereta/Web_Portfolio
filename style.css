@@ -26,3 +26,4 @@ body {
     text-align: center;
 }
 a {color: black;}
+img {max-width:100%;height:auto;}
