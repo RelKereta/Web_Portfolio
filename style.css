@@ -26,4 +26,4 @@ body {
     text-align: center;
 }
 a {color: black;}
-img {max-width:100%;height:auto;}
+img{max-width: 100%;max-height: 100%;}
