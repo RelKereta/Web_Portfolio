@@ -1,6 +1,6 @@
 /*I got the tutorial from "https://www.youtube.com/shorts/onH0wKYIU2o" */
-.wrap img{width:10%;}
-.wrap {position:relative;}
+.wrap img{width:100%;}
+.wrap {position:left;}
 .caption {
     position: absolute;
     bottom: 0; left: 0;
@@ -10,3 +10,14 @@
 }
 .caption {display: none;}
 .wrap:hover .caption {display: block;}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+h4, p {text-align: center, justify;}
